@@ -1,1 +1,2 @@
 #!/bin/bash
+rsync -zavr --delete -e ssh --rsh='ssh -l root' ./www/ 164.177.146.62:/var/www
