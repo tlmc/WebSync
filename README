@@ -1,0 +1,7 @@
+Welcome to the WebSync readme file,
+This program is pretty simple 
+just issue ./addserv SERVERIP
+And then add your web files to the directory named "www"
+and then ./sync
+
+Copyright © Tom Mcloughlin. 2012-3000

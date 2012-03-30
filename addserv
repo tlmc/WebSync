@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "rsync -zavr --delete -e ssh --rsh="ssh -l root" ./www/ $1:/var/www" >> ./sync
+
